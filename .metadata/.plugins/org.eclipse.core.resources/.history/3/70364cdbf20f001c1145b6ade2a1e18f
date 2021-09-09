@@ -1,0 +1,15 @@
+/*
+ * functions.c
+ *
+ *  Created on: Sep 7, 2021
+ *      Author: AhmedAlaa
+ */
+#include "functions.h"
+
+int ask_for_engine_state(){
+	printf("Please, Choose just one option:");
+	printf("a. Turn on the vehicle engine");
+	printf("b. Turn off the vehicle engine");
+	printf("c. Quit the system");
+	printf("Enter the character of choise: ");
+}

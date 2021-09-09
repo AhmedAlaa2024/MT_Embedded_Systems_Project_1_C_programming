@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : Ahmed_Alaa_Mini_Project1.c
+ Author      : Ahmed Alaa
+ Version     : 1.0v
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "functions.h"
+
+int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
+	setvbuf(stderr, NULL, _IONBF, 0);
+
+	/* Configurations */
+	FLAG stage1;
+	ENGINE_STATE engine_state;
+
+	// Start the User Interface
+	printf("Welcome To Vehicle Control System (VCS)");
+
+	/* Super Loop */
+	while(1)
+	{
+		ask_for_engine_state(state)
+	}
+
+	printf("Thanks for you. Come again!")
+	return EXIT_SUCCESS;
+}

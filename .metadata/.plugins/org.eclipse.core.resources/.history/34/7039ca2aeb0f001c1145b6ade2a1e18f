@@ -1,0 +1,11 @@
+/*
+ * functions.c
+ *
+ *  Created on: Sep 7, 2021
+ *      Author: AhmedAlaa
+ */
+
+
+int ask_for_engine_state(){
+
+}

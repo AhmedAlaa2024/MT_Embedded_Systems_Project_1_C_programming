@@ -1,0 +1,18 @@
+/*
+ * functions.h
+ *
+ *  Created on: Sep 7, 2021
+ *      Author: AhmedAlaa
+ */
+
+#ifndef FUNCTIONS_H_
+#define FUNCTIONS_H_
+
+typedef enum {
+	ON, OFF
+} ENGINE_STATE;
+
+
+/* Functions Prototypes */
+
+#endif /* FUNCTIONS_H_ */
