@@ -1,12 +1,12 @@
 /*
- * functions.h
+ * vehicle_sys.h
  *
- *  Created on: Sep 7, 2021
+ *  Created on: Sep 11, 2021
  *      Author: AhmedAlaa
  */
 
-#ifndef FUNCTIONS_H_
-#define FUNCTIONS_H_
+#ifndef VEHICLE_SYS_H_
+#define VEHICLE_SYS_H_
 
 /* Enumerations and Macros */
 #define WITH_ENGINE_TEMP_CONTROLLER 1
@@ -56,4 +56,4 @@ void set_room_temperature(VEHICLE *vehicle);
 void set_engine_temperature(VEHICLE *vehicle);
 void display_current_vehicle_state(VEHICLE *vehicle);
 
-#endif /* FUNCTIONS_H_ */
+#endif /* VEHICLE_SYS_H_ */

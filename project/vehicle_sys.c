@@ -1,11 +1,15 @@
 /*
- * functions.c
- *
- *  Created on: Sep 7, 2021
- *      Author: AhmedAlaa
+ ============================================================================
+ Name        : vehicle_sys.c
+ Author      : Ahmed Alaa
+ Version     : 1.0v
+ Copyright   : for Ahmed Alaa
+ Description : Vehicle Control System Simulation
+ ============================================================================
  */
+
 #include <stdio.h>
-#include "functions.h"
+#include "vehicle_sys.h"
 
 int INPUT_COUNT = 1;
 
@@ -213,11 +217,7 @@ void set_room_temperature(VEHICLE *vehicle)
 		vehicle->room_temperature = 20;
 	}
 	else
-	{
-		vehicle->AC = AC_ON;
-		vehicle->room_temperature *= (5/4);
-		vehicle->room_temperature += 1;
-	}
+		vehicle->AC = AC_OFF;
 }
 
 
@@ -240,11 +240,7 @@ void set_engine_temperature(VEHICLE *vehicle)
 		vehicle->engine_temprature = 125;
 	}
 	else
-	{
-		vehicle->TC = TC_ON;
-		vehicle->engine_temprature *= (5/4);
-		vehicle->engine_temprature += 1;
-	}
+		vehicle->TC = TC_OFF;
 }
 
 
