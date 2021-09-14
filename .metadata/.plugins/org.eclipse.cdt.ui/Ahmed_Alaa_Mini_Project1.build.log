@@ -1,7 +1,0 @@
-18:44:22 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-
-18:44:23 Build Finished. 0 errors, 0 warnings. (took 1s.342ms)
-

@@ -1,40 +1,53 @@
-18:35:13 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+18:57:50 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ahmed_Alaa_Mini_Project1.o" "..\\src\\Ahmed_Alaa_Mini_Project1.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-18:36:22 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+Info: Nothing to build for Project
+21:05:34 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ahmed_Alaa_Mini_Project1.o" "..\\src\\Ahmed_Alaa_Mini_Project1.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-18:37:33 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ahmed_Alaa_Mini_Project1.o "..\\Ahmed_Alaa_Mini_Project1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+21:06:17 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-18:38:48 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+Info: Nothing to build for Project
+21:07:45 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-18:39:39 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ahmed_Alaa_Mini_Project1.o "..\\Ahmed_Alaa_Mini_Project1.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+21:10:56 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-18:40:47 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+21:20:19 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ahmed_Alaa_Mini_Project1.o" "..\\src\\Ahmed_Alaa_Mini_Project1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-18:42:43 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ahmed_Alaa_Mini_Project1.o "..\\Ahmed_Alaa_Mini_Project1.c" 
+..\Ahmed_Alaa_Mini_Project1.c: In function 'main':
+..\Ahmed_Alaa_Mini_Project1.c:80:41: error: called object 'engine_temperature_data' is not a function or function pointer
+   80 |                                         engine_temperature_data(&vehicle);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Ahmed_Alaa_Mini_Project1.c:28:58: note: declared here
+   28 |         int traffic_data = 0, room_temperature_data = 0, engine_temperature_data = 0;
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+21:21:26 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
-Info: Nothing to build for Ahmed_Alaa_Mini_Project1
-18:44:22 **** Incremental Build of configuration Debug for project Ahmed_Alaa_Mini_Project1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ahmed_Alaa_Mini_Project1.o "..\\Ahmed_Alaa_Mini_Project1.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+Info: Nothing to build for Project
+Info: Nothing to build for Project
+21:27:24 **** Incremental Build of configuration Debug for project Project ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\functions.o" "..\\src\\functions.c" 
-gcc -o Ahmed_Alaa_Mini_Project1.exe "src\\Ahmed_Alaa_Mini_Project1.o" "src\\functions.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+21:28:26 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
+21:30:11 **** Incremental Build of configuration Debug for project Project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o functions.o "..\\functions.c" 
+gcc -o Project.exe Ahmed_Alaa_Mini_Project1.o functions.o 
